@@ -1,4 +1,4 @@
-package Collections;
+package MapsPractice;
 import java.util.*;
 
 public class HashMapPractice {
@@ -22,7 +22,7 @@ public class HashMapPractice {
         	map.put(str, keyvalue);
         }
         
-        System.out.println("Getting the element by key.."+map.get("Applee"));
+        System.out.println("Getting the element by key.."+map.get("Appleee"));
         
         System.out.println("Verify whether element is present or not..."+map.containsKey("Banana"));
         

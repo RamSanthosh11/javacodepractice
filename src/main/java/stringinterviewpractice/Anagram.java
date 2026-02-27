@@ -6,8 +6,13 @@ public class Anagram {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+		
 		String string1 = sc.nextLine();
 		String string2 = sc.nextLine();
+		
+		  // Minimal change: make it case-insensitive
+        string1 = string1.toLowerCase();
+        string2 = string2.toLowerCase();
 		
 
 		char[] arr1 = string1.toCharArray();

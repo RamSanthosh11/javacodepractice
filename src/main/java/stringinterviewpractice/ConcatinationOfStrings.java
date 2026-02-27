@@ -8,7 +8,7 @@ public class ConcatinationOfStrings {
 		Scanner sc = new Scanner(System.in);
 		String str = "Hello";
 		String str1 = "World";
-		String result = str + " " + str1;
+		String result = str + "" + str1;
 		System.out.println(result);
 		for(int i=0;i<str1.length();i++) {
 			str= str+str1.charAt(i);

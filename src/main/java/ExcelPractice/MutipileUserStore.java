@@ -20,12 +20,11 @@ public class MutipileUserStore {
             if (row == null) continue;
 
             String username = row.getCell(0).getStringCellValue();
-            String password = row.getCell(1).getStringCellValue();
+            String password = row.getCell(1).getStringCellValue();   
 
             // Convert cell value to string, then to int
             String keyString = row.getCell(2).toString();
             int keyInt = (int) Double.parseDouble(keyString);
-
             System.out.println(username + " " + password + " " + keyInt);
         }
 

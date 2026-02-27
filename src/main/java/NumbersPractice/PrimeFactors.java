@@ -1,4 +1,4 @@
-package NumbersPractice;
+ package NumbersPractice;
 import java.util.*;
 
 public class PrimeFactors {

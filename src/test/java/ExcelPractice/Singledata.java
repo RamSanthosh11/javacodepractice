@@ -26,7 +26,7 @@ public class Singledata {
 	  //double key = row.getCell(2).getNumericCellValue();
 	  int keyInt = (int) row.getCell(2).getNumericCellValue();
 	  System.out.println(username+" "+password);
-	  System.out.println(key);
+	  System.out.println(keyInt);
 	  //Ram santhosh oo
 	  
 	  

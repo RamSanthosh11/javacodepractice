@@ -5,7 +5,7 @@
     <classes>
       <class name="ExcelPractice.TestDataProvider">
         <methods>
-          <include name="f" invocation-numbers="0 1 2 3 4"/>
+          <include name="f" invocation-numbers="3 4"/>
         </methods>
       </class> <!-- ExcelPractice.TestDataProvider -->
     </classes>
